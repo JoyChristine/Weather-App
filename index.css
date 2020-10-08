@@ -1,3 +1,38 @@
 body {
     background-image: url("img/back1.jpg");
 }
+
+.searchbar {
+    /* justify-content: center;
+    align-content: center; */
+    margin-block-start: 10%;
+    margin-inline-start: 40%;
+}
+
+.searchbar input {
+    width: 30%;
+    height: 35px;
+    border-radius: 20px;
+    outline: none;
+    font-family: inherit;
+    border: 1px solid rgba(150, 150, 150, 1);
+}
+
+.searchbar button {
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: white;
+    font-size: 17px;
+    font-family: inherit;
+    /* border: 1px solid darkblue; */
+    text-align: center;
+}
+
+.searchbar button:hover {
+    background-color: darkblue;
+    color: white;
+}
