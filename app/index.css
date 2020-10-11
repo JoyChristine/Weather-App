@@ -9,10 +9,11 @@ body {
 main {
     border: 1px solid black;
     width: fit-content;
+    display: block;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    margin-top: 2em;
     justify-content: center;
-    align-items: center;
-    /* margin-inline-start: 30em;
-    margin-block-start: 3em; */
 }
 
 h1 {
@@ -55,13 +56,18 @@ h1 {
     display: block;
     font-size: calc(1.3vw + 8px);
     /* box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.69);*/
-    background: #A6DCEF;
+    /* background: #e6e1e0; */
     margin-right: 2em;
     margin-bottom: 2em;
     margin-top: 2em;
-    width: 150px;
-    height: 80px;
+    width: 250px;
+    height: 200px;
     justify-content: center;
+}
+
+.detail:first-child,
+.detail:nth-child(2) {
+    border-right: 1px solid black;
 }
 
 .detail i {
@@ -69,6 +75,12 @@ h1 {
     font-size: 22px;
 }
 
-.detail:hover {
-    transform: scale(1.4);
+
+/* .detail:hover {
+    transform: scale(1.1);
+}
+*/
+
+.detail img {
+    right: 0;
 }
