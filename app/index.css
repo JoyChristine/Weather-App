@@ -1,7 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    background: tomato;
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    /* background-position: center; */
 }
 
 main {
@@ -14,7 +16,7 @@ main {
 }
 
 h1 {
-    font-size: calc(4vw + 1em);
+    font-size: calc(3.4vw + 1em);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -36,6 +38,11 @@ h1 {
     font-weight: bold;
 }
 
+.container button:hover {
+    color: white;
+    background: blue;
+}
+
 .details {
     border: 1px solid black;
     display: flex;
@@ -46,8 +53,8 @@ h1 {
 
 .detail {
     display: block;
-    font-size: calc(1.3vw + .2px);
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.69);
+    font-size: calc(1.3vw + 8px);
+    /* box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.69);*/
     background: #A6DCEF;
     margin-right: 2em;
     margin-bottom: 2em;
@@ -55,4 +62,13 @@ h1 {
     width: 150px;
     height: 80px;
     justify-content: center;
+}
+
+.detail i {
+    color: red;
+    font-size: 22px;
+}
+
+.detail:hover {
+    transform: scale(1.4);
 }
